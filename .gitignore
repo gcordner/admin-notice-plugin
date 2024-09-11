@@ -1,0 +1,60 @@
+# Ignore macOS system files
+.DS_Store
+
+# Ignore node.js dependencies
+node_modules/
+
+# Ignore Composer dependencies
+vendor/
+
+# Ignore WordPress core files (if for some reason present)
+wp-admin/
+wp-includes/
+
+# Ignore any compiled assets (if you're compiling SCSS, JS, etc.)
+dist/
+build/
+
+# Ignore Gulp, Grunt, Webpack, or any other build system files
+gulpfile.js
+gruntfile.js
+webpack.config.js
+yarn.lock
+package.json
+package-lock.json
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# Ignore SASS and other precompiled files
+.sass-cache/
+
+# Ignore OS-generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Ignore IDE/editor specific files
+*.sublime-workspace
+*.sublime-project
+.vscode/
+.idea/
+
+# Ignore miscellaneous system files
+*.bak
+*.orig
+*.save
+
+# Ignore compiled PHP extension files
+*.so
+
+# Ignore compiled CSS/JS map files
+*.map
+
+
+# Optional: if you have any configuration files specific to your environment, you can exclude them
+config/
+.env
+
